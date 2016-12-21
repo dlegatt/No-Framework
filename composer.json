@@ -8,5 +8,17 @@
             "email": "legattd@ncbpinc.com"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=7.0.0",
+        "filp/whoops": "^2.1",
+        "symfony/http-foundation": "^3.2",
+        "league/route": "^2.0",
+        "symfony/psr-http-message-bridge": "^1.0",
+        "zendframework/zend-diactoros": "^1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Legattd\\":"src/"
+        }
+    }
 }
