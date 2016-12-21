@@ -1,0 +1,12 @@
+{
+    "name": "legattd/no-framework",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David Legatt",
+            "email": "legattd@ncbpinc.com"
+        }
+    ],
+    "require": {}
+}
