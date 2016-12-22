@@ -41,6 +41,7 @@ $route->map('GET', '/route-2', function() use ($request,$response) {
 });
 
 $response = $route->dispatch($request,$response);
+var_dump($response[0]);
 $emitter = new SapiEmitter();
 $emitter->emit($response);
 
